@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>摄影作品 · 宋宽</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <a href="index.html" class="logo">SONG<span>KUAN</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="菜单">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav" id="nav">
+      <a href="index.html">首页</a>
+      <a href="gallery.html" class="active">摄影作品</a>
+      <a href="video.html">视频作品</a>
+      <a href="about.html">关于我</a>
+    </nav>
+  </div>
+</header>
+
+<section class="about-hero">
+  <h1>摄影<span>作品</span></h1>
+  <p class="subtitle">PHOTOGRAPHY</p>
+</section>
+
+<section class="section" style="padding-top: 40px;">
+  <div class="container">
+    <!-- Filter -->
+    <div class="gallery-filter fade-up">
+      <button class="filter-btn active" data-filter="all">全部作品</button>
+      <button class="filter-btn" data-filter="portrait">人像摄影</button>
+      <button class="filter-btn" data-filter="campus">校园项目</button>
+    </div>
+
+    <!-- Grid -->
+    <div class="photo-grid" id="galleryGrid">
+      <!-- JS 动态生成 -->
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose">&times;</button>
+  <button class="lightbox-prev" id="lightboxPrev">&#8249;</button>
+  <button class="lightbox-next" id="lightboxNext">&#8250;</button>
+  <img src="" alt="" id="lightboxImg">
+</div>
+
+<footer class="footer">
+  <p>© 2026 宋宽 SONGKUAN</p>
+  <p style="margin-top: 8px;">
+    <a href="mailto:3191214701@qq.com">3191214701@qq.com</a>
+    <span>|</span>
+    <a href="tel:13543776960">13543776960</a>
+  </p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

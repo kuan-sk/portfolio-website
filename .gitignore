@@ -1,0 +1,5 @@
+# 视频文件（太大，不适合GitHub，请上传到B站/YouTube后嵌入）
+assets/videos/
+
+# 构建脚本（仅本地使用）
+build.py
