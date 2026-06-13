@@ -371,10 +371,15 @@ ul { list-style: none; }
   .section { padding: 60px 20px; }
   .hero { padding: 100px 20px 60px; }
   .photo-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 10px; }
-  .video-grid { grid-template-columns: 1fr; }
+  .video-grid { grid-template-columns: 1fr; gap: 20px; }
+  .video-embed { border-radius: var(--radius) var(--radius) 0 0; }
+  .video-info { padding: 14px 16px; }
+  .video-info h3 { font-size: 16px; }
+  .video-info p { font-size: 13px; }
   .lightbox-prev { left: 12px; }
   .lightbox-next { right: 12px; }
   .about-hero { padding: 120px 20px 60px; }
   .about-content { padding: 0 20px 60px; }
-  .hero-buttons { flex-direction: column; align-items: center; }
+  .hero-buttons { flex-direction: row; flex-wrap: wrap; align-items: center; justify-content: center; gap: 10px; }
+  .hero-buttons .btn { padding: 12px 24px; font-size: 14px; }
 }
